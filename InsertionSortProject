@@ -1,0 +1,50 @@
+Insertion Sort
+a)	[22,27,16,2,18,6] -> Insertion Sort
+1.	Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+2.	Big-O gösterimini yazınız.
+3.	Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+4.	Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+b)	[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+
+a)
+1)
+Main 
+22	27	16	2	18	6
+
+Step 1:
+16	22	27	2	18	6
+
+Step 2:
+2	16	22	27	18	6
+
+Step 3:
+2	16	18	22	27	6
+
+Step 4:
+2	6	16	18	22	27
+
+It is sorted.
+2)
+In insertion sort, every time it compares the two numbers and then sorts. -> for this step time complexity is O(n)
+To complete the sorting process, it should loop the all numbers which means n time and the total time complexity -> n*O(n)=O(n^2)
+For best case time complexity-> O(n) which means it is already sorted.
+3)
+Average case example: 18  Worst case example: 27 Best case example: 2
+4) Average case because it is in the middle of the sorted list and it is in average condition.
+b)
+7	3	5	8	2	9	4	15	6
+
+Step 1:
+3	7	5	8	2	9	4	15	6
+
+Step 2:
+3	5	7	8	2	9	4	15	6
+
+Step 3:
+2	3	5	7	8	9	4	15	6
+
+Step 4:
+2	3	5	7	8	9	4	15	6
+
+
