@@ -1,0 +1,37 @@
+Merge sort
+[16,21,11,8,12,22]  -> Merge Sort
+•	Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+•	Big-O gösterimini yazınız.
+
+16	21	11	8	12	22
+
+Step 1: Divide into 2 different part by looking at upper bound and lower bound We can do this with (0+5)/2 =2.5 and we will take 3 numbers for one half and 3 numbers for another half
+16	21	11
+
+8	12	22
+
+Step 2: Take the first part and divide again (0+2)/2 =1 
+16	21
+11
+
+11
+Step 3: It will divide until it has only one element 
+16
+21
+
+Step 4: It will do the same things for other half
+22
+
+8
+12
+
+Step 5: It is finished the divide part now it will skip the merge part. Fist it will merge the lower bound to mid which is first part.
+11	16	21
+
+Step 6: Merge other half.
+8	12	22
+
+Step 7: To complete the sorting process merge all together.
+8	11	12	16	21	22
+
+b) time complexity: Every time when it divides it cuts other half which means 2^x=n => x = logn and it happens n times. So the time complexity is O(nlogn)
