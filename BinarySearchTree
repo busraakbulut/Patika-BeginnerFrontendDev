@@ -1,0 +1,19 @@
+Binary Search Tree
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Start with selecting root.
+
+Root =7
+As we know if the next number is bigger than root. It will right as right child. If it is smaller, it will right as left child.
+
+
+7->5 we will write it to left child
+1=> it is smaller than 7 and there is a node there which is 5 and it is even smaller than 5 so we will put it 5’s left child.
+8=> It is bigger than 7 so it will put it 7’s right child.
+3 => 1’s right child
+6=> 5’s right child
+0=> 1’s left child
+9=> 8’s right child
+4=> 3’s right child
+2=> 3’s left child
+
+
