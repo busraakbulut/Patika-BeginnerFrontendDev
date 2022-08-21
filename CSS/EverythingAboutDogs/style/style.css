@@ -1,0 +1,73 @@
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-right: auto;
+    padding: 8px 8px;
+    width: 100px;
+    height: 120px;
+    float: left;
+    overflow: hidden;
+}
+
+.search {
+    float: right;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+header {
+    background-color: white;
+    text-align: right;
+    text-align-last: downright;
+    overflow: hidden;
+    /* background-color: bisque; */
+}
+
+h1 {
+    font-size: 78px;
+}
+
+.font {
+    /* background-color: rgb(93, 169, 223); */
+    /* margin: 20px 150px 150px 100px; */
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+body {
+    background-color: rgb(171, 234, 189);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.dogs {
+    background-color: chocolate;
+    margin: 20px 8px;
+    padding: 15px 15px;
+    height: 600px;
+    width: 618px;
+    float: left;
+}
+
+.alert {
+    background-color: chocolate;
+    font-size: 14px;
+    transition: font-size 4s 1s;
+}
+
+.alert:hover {
+    font-size: 36px;
+}
